@@ -1,0 +1,122 @@
+@import "../lib/utils";
+@import "../base/input";
+
+footer {
+  // padding: 0 1em 1em;
+  display: flex;
+  flex-direction: column;
+  font-size: 14.5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: $Very-Dark-Cyan;
+  // border: 1px solid red;
+  a {
+    color: $Pink;
+    text-decoration: none;
+  }
+}
+.footer-data{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.footer {
+  text-align: start !important;
+  padding: 2em 2em 1em 2em !important;
+  background-color: $Very-Dark-Cyan;
+  color: white;
+
+  .newsletter {
+    margin-bottom: 6em;
+    h1 {
+      text-transform: uppercase;
+      // border: 1px solid yellow;
+    }
+    p {
+      // border: 1px solid yellow;
+    }
+  }
+
+  .footer_option {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: 2em;
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .logo-footer {
+    filter: brightness(0) invert(1);
+    width: 80%;
+    margin-bottom: 1em;
+    /* border: 1px solid orange; */
+    img {
+      width: 12em;
+    }
+  }
+
+  .footer-text {
+    margin-bottom: 2em;
+  }
+
+  li {
+    display: flex;
+    margin-bottom: 1em;
+    // border: 1px solid red;
+    img {
+      margin-right: 1em;
+      // border: 1px solid orange;
+    }
+    div {
+      // border: 1px solid cyan;
+    }
+  }
+
+  .socials {
+    flex-direction: row;
+    justify-content: flex-start;
+    // border: 1px solid cyan;
+    .social-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      font-size: 1.5em;
+      margin: 0 1em 0 0;
+      width: 1.2em;
+      height: 1.3em;
+      cursor: pointer;
+      i {
+        color: $Very-Dark-Cyan;
+      }
+      &:hover {
+        background-color: $Very-Dark-Cyan;
+        i {
+          color: white;
+        }
+      }
+    }
+
+    .icon-transparent {
+      background-color: transparent;
+      font-size: 2em;
+      height: auto;
+      i {
+        color: white;
+      }
+      &:hover {
+        background-color: white;
+        i {
+          color: $Very-Dark-Cyan;
+        }
+      }
+    }
+  }
+}

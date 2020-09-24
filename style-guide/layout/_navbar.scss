@@ -1,0 +1,13 @@
+@import "../lib/utils";
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 1em 1em 1em;
+  /* border: 2px dotted purple; */
+}
+
+.logo img {
+  width: 7em;
+}

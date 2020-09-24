@@ -1,0 +1,31 @@
+@import "../lib/utils";
+@import "../layout/card";
+
+.data-info {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    // border: 2px solid darkcyan;
+}
+
+.left, .right {
+    text-align: center;
+    padding: 2em 2.5em;
+    // border: 2px dotted orange;
+    img{
+        align-self: flex-start;
+        margin-left: -7.5em;
+        width: 2em;
+        // border: 1px solid lawngreen;
+    }
+    h1{
+        font-size: 3.5em;
+        margin: 0 0 0.2em 0;
+        // border: 1px solid red;
+    }
+    p{
+        margin-top: 0;
+        color: $Grayish-Blue;
+        // border: 1px solid rebeccapurple;
+    }
+}

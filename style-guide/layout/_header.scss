@@ -1,0 +1,14 @@
+@import "layout/navbar";
+@import "layout/hero";
+
+.header-content h1 {
+    font-size: 1.6em;
+    margin-top: 2em;
+    // padding: 0 1em;
+    // border: 1px solid lawngreen;
+}
+
+.header-content p {
+    margin-bottom: 4em;
+    // border: 1px solid lawngreen;
+}

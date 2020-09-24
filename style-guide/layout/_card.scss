@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5em;
+  // border: 1px solid green;
+  img {
+    max-width: 80%;
+    margin: 4em 0;
+    // border: 1px solid green;
+  }
+  h2 {
+    // border: 1px solid green;
+  }
+  p {
+    font-size: 14px;
+    // border: 1px solid green;
+  }
+}
+
+.get-started {
+  align-items: center;
+  margin-bottom: 10em;
+  .btn {
+    margin-top: 1em;
+    width: 75%;
+  }
+}
