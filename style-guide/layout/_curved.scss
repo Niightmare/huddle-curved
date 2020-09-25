@@ -40,3 +40,15 @@
   background-position: center;
   // border: 1px solid blue;
 }
+
+@media screen and (min-width: 485px) {
+  .curved-footer,
+  .curved-up,
+  .curved-down,
+  .curved-bottom {
+    height: 10em;
+  }
+  .curved-top {
+    height: 12em;
+  }
+}
