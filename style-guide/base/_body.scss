@@ -32,7 +32,8 @@ body {
 @import "../layout/curved";
 @import "../layout/footer";
 
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 700px) {
   .navbar {
     padding: 2em;
     .try-it {
