@@ -235,21 +235,15 @@ footer {
 }
 .footer .newsletter {
   margin-bottom: 6em;
-  border: 1px solid orange;
 }
 .footer .newsletter h1 {
   text-transform: uppercase;
-  border: 1px solid yellow;
-}
-.footer .newsletter p {
-  border: 1px solid yellow;
 }
 .footer .footer_option {
   display: flex;
   flex-direction: column;
   list-style: none;
   margin-bottom: 2em;
-  border: 1px solid orange;
 }
 .footer .footer_option ul {
   margin: 0;
